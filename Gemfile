@@ -22,7 +22,5 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
-# Use jquery as the JavaScript library
 gem 'jquery-rails'
-
 gem 'turbolinks'
