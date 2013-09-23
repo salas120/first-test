@@ -1,1 +1,1 @@
-# One month rails course(http://onemonthrails.com)
+One month rails course(http://onemonthrails.com)
