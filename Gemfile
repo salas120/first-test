@@ -7,6 +7,7 @@ gem 'rails', '4.0.0'
 
 group :production do
    gem 'pg'
+   gem 'rails_12factor'
 end
 
 group :development, :test do 
@@ -24,4 +25,3 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'rails_12factor', group: :production 
