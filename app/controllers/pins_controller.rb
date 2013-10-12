@@ -5,7 +5,7 @@ before_filter :authenticate_user!, except: [:index]
 
   # GET /pins
   def index
-    @pins = Pin.all
+    @pins = Pin.order("created_at desc")
   end
 
   # GET /pins/1
@@ -58,6 +58,6 @@ before_filter :authenticate_user!, except: [:index]
 
     # Only allow a trusted parameter "white list" through.
     def pin_params
-      params.require(:pin).permit(:description)
+      params.require(:pin).permit(:description, :image)
     end
 end
