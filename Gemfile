@@ -19,6 +19,7 @@ gem 'bootstrap-sass', '~> 2.2.2.0'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", '~> 3.0'
+gem "aws-sdk"
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
